@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio pessoal - Currículo Online" />
+    <title>Portfólio - João Farias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Botão para alternar entre tema claro e escuro -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+      <span class="theme-icon">🌙</span>
+    </button>
+
+    <!-- Menu de navegação -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">João Farias</div>
+        <!-- Botão do menu mobile -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <!-- Links de navegação -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+          <li><a href="#formacao" class="nav-link">Formação</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Seção: Sobre mim -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h1 class="section-title">Sobre mim</h1>
+        <div class="about-content">
+          <div class="profile-image">
+            <img
+              src="https://avatars.githubusercontent.com/u/29587776?v=4"
+              alt="Foto de perfil"
+            />
+          </div>
+          <div class="about-text">
+            <h2>Olá! Eu sou João Farias</h2>
+            <p>
+              Sou um Engenheiro de Software apaixonado por tecnologia e
+              inovação. Atualmente estou cursando Engenharia de Software na
+              UNINTER e busco constantemente aprimorar minhas habilidades em
+              programação.
+            </p>
+            <p>
+              Atuo como Engenheiro de Software na Sanar, trabalhando
+              principalmente com sistemas de pagamentos e checkouts. A stack que
+              trabalho é Node.js, React, NestJS, RabbitMQ, PostgreSQL.
+            </p>
+            <p>
+              Tenho interesse especial em arquitetura de software, onde o foco é a
+              organização e planejamento de sistemas complexos.
+            </p>
+
+            <h3>Hobbies e Interesses</h3>
+            <ul class="hobbies-list">
+              <li>💻 Programação e desenvolvimento de projetos pessoais</li>
+              <li>📚 Leitura de artigos sobre tecnologia</li>
+              <li>🏃 Atividades físicas e artes marciais</li>
+            </ul>
+
+            <h3>Habilidades Técnicas</h3>
+            <div class="skills">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Clean Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Formação -->
+    <section id="formacao" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Formação</h2>
+
+        <div class="education-grid">
+          <!-- Formação Acadêmica -->
+          <div class="education-card">
+            <div class="card-icon">🎓</div>
+            <h3>Formação Acadêmica</h3>
+            <div class="education-item">
+              <h4>Bacharelado em Engenharia de Software</h4>
+              <p class="institution">
+                UNINTER - Centro Universitário Internacional
+              </p>
+              <p class="period">2023 -</p>
+              <p class="description">
+                Curso focado em desenvolvimento de software, programação web,
+                banco de dados, engenharia de software e gestão de projetos.
+              </p>
+            </div>
+          </div>
+
+          <!-- Cursos Complementares -->
+          <div class="education-card">
+            <div class="card-icon">📚</div>
+            <h3>Cursos Complementares</h3>
+            <div class="education-item">
+              <h4>Tech Leads Club</h4>
+              <p class="institution">Tech Leads Club</p>
+              <p class="period">2025</p>
+              <p class="description">
+                Comunidade de conteúdo avançado sobre desenvolvimento de
+                software, carreira, liderança técnica e gerenciamento
+              </p>
+            </div>
+          </div>
+
+          <!-- Idiomas -->
+          <div class="education-card">
+            <div class="card-icon">🌍</div>
+            <h3>Idiomas</h3>
+            <div class="language-item">
+              <h4>Português</h4>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 100%"></div>
+              </div>
+              <p>Nativo</p>
+            </div>
+            <div class="language-item">
+              <h4>Inglês</h4>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 70%"></div>
+              </div>
+              <p>Avançado</p>
+            </div>
+            <div class="language-item">
+              <h4>Espanhol</h4>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 40%"></div>
+              </div>
+              <p>Básico</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Portfólio -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="section-title">Portfólio</h2>
+        <p class="section-subtitle">
+          Confira alguns dos meus trabalhos e projetos realizados
+        </p>
+
+        <div class="portfolio-grid">
+          <!-- Projeto 1 -->
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img
+                src="https://images.unsplash.com/photo-1540655037529-dec987208707?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1521"
+                alt="Projeto Clone YouTube feito com React"
+              />
+            </div>
+            <div class="portfolio-content">
+              <h3>Clone YouTube</h3>
+              <p>
+                Projeto clone YouTube, feito com React, Material UI e Styled
+                Components
+              </p>
+              <div class="portfolio-tags">
+                <span>React</span>
+                <span>Styled Components</span>
+                <span>Material UI</span>
+              </div>
+              <a
+                href="https://github.com/joaocdfarias/youtube-clone"
+                target="_blank"
+                class="btn-project"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img
+                src="https://images.unsplash.com/photo-1664570000007-db164768644d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1117"
+                alt="Extensão para alternar tema VSCode"
+              />
+            </div>
+            <div class="portfolio-content">
+              <h3>Alternar tema VSCode</h3>
+              <p>
+                Extensão para alternar tema do VS Code
+              </p>
+              <div class="portfolio-tags">
+                <span>TypeScript</span>
+                <span>VSCode</span>
+              </div>
+              <a href="https://github.com/joaocdfarias/vscode-theme-toggle" target="_blank" class="btn-project"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Contato -->
+    <section id="contato" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contato</h2>
+        <p class="section-subtitle">
+          Entre em contato comigo através do formulário abaixo
+        </p>
+
+        <div class="contact-wrapper">
+          <!-- Informações de contato -->
+          <div class="contact-info">
+            <h3>Informações de Contato</h3>
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <h4>Email</h4>
+                <p>joao@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <div>
+                <h4>Telefone</h4>
+                <p>(71) 99999-9999</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <h4>Localização</h4>
+                <p>Salvador, BA - Brasil</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <h4>Redes Sociais</h4>
+              <a
+                href="https://github.com/joaocdfarias"
+                target="_blank"
+                class="social-link"
+                >GitHub</a
+              >
+              <a
+                href="https://linkedin.com/in/joaocdfarias"
+                target="_blank"
+                class="social-link"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+
+          <!-- Formulário de contato -->
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Nome Completo *</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Digite seu nome completo"
+                  required
+                />
+                <span class="error-message" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+                <span class="error-message" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensagem *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Digite sua mensagem..."
+                  required
+                ></textarea>
+                <span class="error-message" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal de confirmação -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <div class="modal-icon">✓</div>
+        <h3>Mensagem Enviada com Sucesso!</h3>
+        <p>Obrigado pelo contato. Responderei em breve.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 João Farias - Portfólio Pessoal. Todos os direitos
+          reservados.
+        </p>
+        <p>Desenvolvido com HTML5, CSS3 e JavaScript</p>
+      </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
