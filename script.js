@@ -338,4 +338,4 @@ console.log('%cDesenvolvido com HTML5, CSS3 e JavaScript', 'color: #50C878; font
 console.log('%cSem frameworks - Código 100% puro!', 'color: #FF6B6B; font-size: 14px;');
 console.log('%c---', 'color: #666;');
 console.log('📧 Contato: joaocdfariass@gmail.com');
-console.log('🌐 GitHub: https://github.com/joaocdfariass');
+console.log('🌐 GitHub: https://github.com/joaocdfarias');
